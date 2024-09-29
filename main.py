@@ -9,8 +9,8 @@ import implicit  #temp chnage the data type for easy cal
 from scipy.sparse import csr_matrix #store and perform fast when dealing with more zero's
 
 # Spotify authentication
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='add131255d68413b9b66f4832a41b64a',
-                                               client_secret='c0c601f465084bfeb90f27253a4daf72',
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='your_client_id',
+                                               client_secret='your_client_secret',
                                                redirect_uri='http://localhost:8888/callback',
                                                scope="user-library-read"))
 
