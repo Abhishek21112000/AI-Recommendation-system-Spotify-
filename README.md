@@ -28,7 +28,7 @@ scipy==1.x.x
 How to Run
 Clone the repository:
 
-git clone https://github.com/your-username/spotify-music-recommendation.git
+git clone https://github.com/Abhishek21112000/AI-Recommendation-system-Spotify-.git
 cd spotify-music-recommendation
 Install the required packages:
 
